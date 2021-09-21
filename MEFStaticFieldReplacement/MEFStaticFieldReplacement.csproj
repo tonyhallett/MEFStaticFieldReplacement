@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Tony Hallett</Authors>
+    <Description>Use CompositionContainer and ReflectionContext to replace static fields from types in a catalog.</Description>
+    <PackageTags>MEF;RegistrationBuilder</PackageTags>
+    <Title>MEF Static Field Replacement</Title>
+    <ProjectUrl>https://github.com/tonyhallett/MEFStaticFieldReplacement</ProjectUrl>
+    <RepositoryUrl>https://github.com/tonyhallett/MEFStaticFieldReplacement.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExtendedRegistrationBuilder" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
